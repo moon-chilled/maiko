@@ -1,6 +1,6 @@
 # Options for FreeBSD, Intel 386/486 and X-Window
 
-CC = gcc10 -m32 -std=c89 -Wall
+CC = gcc10 -m64 -std=c89 -Wall
 
 XFILES = $(OBJECTDIR)xmkicon.o \
 	$(OBJECTDIR)xbbt.o \
